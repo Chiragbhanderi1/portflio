@@ -1,0 +1,19 @@
+{
+  "name": "portflio",
+  "version": "1.0.0",
+  "description": "this is my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiragbhanderi1/portflio.git"
+  },
+  "author": "chirag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiragbhanderi1/portflio/issues"
+  },
+  "homepage": "https://github.com/Chiragbhanderi1/portflio#readme"
+}
