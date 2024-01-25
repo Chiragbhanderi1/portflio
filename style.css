@@ -115,7 +115,7 @@ nav ul li a{
   }
 .email{
     right: -115px;
-    top: 70vh;
+    bottom: 0;
     color: #ccd6f6 !important;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ nav ul li a{
     cursor: pointer;
 }
 .eline{
-    width: 220px;
+    min-width: 220px;
     height: 10px;
     margin-left: 10px;
     background: #ccd6f6;
@@ -181,18 +181,30 @@ nav ul li a{
     justify-content: center;
 }
 .skills-block h5{
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 0;
     overflow: hidden;
 }
 .skills-block{
     display: flex;
     margin: 20px 20px;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.skills-block img{
+    width: 100px;
+}
+@media screen and (max-width: 768px) {
+    .skills-block img{
+        width: 50px;
+    }
+    .skills-block{
+        margin: 5px 5px;;
+    }
+
 }
 .skills-block:hover{
     scale: 1.1;
@@ -372,6 +384,7 @@ form {
   }
   .social-media-icons a i{
     font-size: 52px;
+    overflow: hidden;
   }
   
 .footer{
@@ -422,7 +435,7 @@ form {
         display: none;
     }
     .skills{
-        max-width: 75vw;
+        max-width: 100vw;
         margin-inline: auto;
     }
     .dashboard{
